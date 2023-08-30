@@ -17,7 +17,7 @@
 # Get commandline args
 SLEEP_DURATION=$1
 if [[ "${SLEEP_DURATION}" == "" ]] ; then
-  SLEEP_DURATION=1s
+  SLEEP_DURATION=30s
 fi
 
 # Produce a one-line but informative git log summary
